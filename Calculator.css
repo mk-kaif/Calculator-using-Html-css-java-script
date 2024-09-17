@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#claculator{
+    width: 400px;
+    border: 1px solid black;
+    background-color: coral;
+    border-radius: 10px;
+   
+
+}
+#display{
+    width: 93%;
+    height: 60px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.box{
+    width: 82px;
+    height: 82px;
+    margin: 10px;
+    font-size: 25px;
+   background-color: goldenrod;
+   border-radius: 5px;
+
+}
+.box:hover{
+    background-color: pink;
+}
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
